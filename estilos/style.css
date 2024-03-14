@@ -175,6 +175,39 @@
     margin-left: 1em;
     margin-top: 2em;
     color: #1eb688;
+    border-radius: 10px;
+    padding: 1em;
+    border: 3px solid #E00C36;
+  }
+
+  .cards_2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ececec;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-top: 2em;
+    color: #1eb688;
+    border: 4px solid #d6af00;
+    border-radius: 10px;
+    padding: 1em;
+  }
+
+  .cards_3 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ececec;
+    color: #1eb688;
+    height: 400px;
+    width: 300px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-top: 2em;
+    border: 6px solid #57ff0a;
+    border-radius: 10px;
+    padding: 1em;
   }
 
   .cards p {
@@ -192,35 +225,6 @@
     color: #000;
   }
 
-  .cards_2 {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #ececec;
-    height: 300px;
-    width: 300px;
-    margin-bottom: 1em;
-    margin-left: 1em;
-    margin-top: 2em;
-    color: #1eb688;
-    border: 2px solid #d6af00;
-    border-radius: 10px;
-    padding: 1em;
-  }
-
-  .cards_3 {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #ececec;
-    color: #1eb688;
-    height: 400px;
-    width: 300px;
-    margin-bottom: 1em;
-    margin-left: 1em;
-    margin-top: 2em;
-    border: 2px solid #57ff0a;
-    border-radius: 10px;
-    padding: 1em;
-  }
 
   .card > h2 {
     color: #fff;
