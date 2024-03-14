@@ -147,11 +147,41 @@
     justify-content: space-evenly;
   }
 
+  .container_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
   .card {
     display: flex;
     flex-wrap: wrap;
     background-color: #232F3F;
     height: 200px;
+    width: 300px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-top: 2em;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ececec;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-top: 2em;
+    color: #1eb688;
+  }
+
+  .cards_3 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ececec;
+    color: #1eb688;
+    height: 400px;
     width: 300px;
     margin-bottom: 1em;
     margin-left: 1em;
