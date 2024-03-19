@@ -157,11 +157,15 @@
     display: flex;
     flex-wrap: wrap;
     background-color: #232F3F;
-    height: 200px;
+    height: 300px;
     width: 300px;
     margin-bottom: 1em;
     margin-left: 1em;
     margin-top: 2em;
+  }
+
+  .card > p {
+    color: #FFF;
   }
 
   .cards {
