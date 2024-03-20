@@ -152,7 +152,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  
+
   .card {
     display: flex;
     flex-wrap: wrap;
@@ -162,6 +162,7 @@
     margin-bottom: 1em;
     margin-left: 1em;
     margin-top: 2em;
+    text-align: center;
   }
 
   .card > p {
