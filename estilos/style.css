@@ -153,6 +153,10 @@
     justify-content: space-evenly;
   }
 
+  .contato {
+    margin-bottom: -10px;
+  }
+
   .card {
     display: flex;
     flex-wrap: wrap;
@@ -233,6 +237,33 @@
 
   .card > h2 {
     color: #fff;
+  }
+
+  .const {
+    color: #FFF;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .malhando {
+    box-shadow:0px 0px 10px 0px #fff ;
+  }
+
+  .malhando_2 {
+    box-shadow:0px 0px 10px 0px #fff ;
+    margin-top: 40px;
+  }
+
+  .frase_inicial {
+    color: #FFF;
+    font-size: 25px;
+    margin-top: -120px;
+    margin-bottom: 1em;
+  }
+
+  .frase_inicial > p {
+    margin-left: 20px;
   }
 
   @media (max-width: 1080px) {
