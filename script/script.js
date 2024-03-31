@@ -1,5 +1,6 @@
 const menuLinks = document.querySelectorAll('.menu a[href^="#"]');
 let menu = document.querySelector('.menu')
+const mobile = document.querySelector('.menu_mobile')
 
 function getDistanceFromTheTop(element) {
   const id = element.getAttribute("href");
@@ -48,3 +49,5 @@ function smoothScrollTo(endX, endY, duration) {
     window.scroll(newX, newY);
   }, 1000 / 60);
 }
+
+

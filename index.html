@@ -22,6 +22,17 @@
       </ul>
     </nav>
   </header>
+  <div class="menu_mobile">
+    <nav>
+    <img src="imagens/menu.png" alt="">
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Servicos</a></li>
+      <li><a href="#planos">Planos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    </nav>
+  </div>
   <img src="imagens/treino.png" alt="Homem malhando ilustrativo" />
   <div class="content">
     <div class="frase_inicial">
@@ -101,6 +112,50 @@
   </div>
  
   <script src="script/script.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+      ScrollReveal({ reset: true });
+      ScrollReveal().reveal('.title', {
+        delay: 200,
+        duration: 400,
+        origin: 'right',
+        distance: '20px',
+        easing: 'cubic-bezier(.5, .01, .5, 1)',
+    });
+
+    ScrollReveal().reveal('.container > .card', {
+        delay: 200,
+        duration: 400,
+        origin: 'left',
+        distance: '20px',
+        easing: 'cubic-bezier(.5, .01, .5, 1)',
+        interval: 200
+    });
+
+    ScrollReveal().reveal('.container_1 > .cards', {
+        delay: 200,
+        duration: 400,
+        origin: 'bottom',
+        distance: '20px',
+        easing: 'cubic-bezier(.5, .01, .5, 1)',
+    });
+
+    ScrollReveal().reveal('.container_1 > .cards_2', {
+        delay: 200,
+        duration: 400,
+        origin: 'bottom',
+        distance: '20px',
+        easing: 'cubic-bezier(.5, .01, .5, 1)',
+    });
+
+    ScrollReveal().reveal('.container_1 > .cards_3', {
+        delay: 200,
+        duration: 400,
+        origin: 'bottom',
+        distance: '20px',
+        easing: 'cubic-bezier(.5, .01, .5, 1)',
+    });
+  </script>
 </body>
 
 </html>

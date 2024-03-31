@@ -152,7 +152,6 @@
     margin-bottom: 1em;
     margin-left: 1em;
     margin-top: 2em;
-    text-align: center;
   }
 
   .card > p {
@@ -268,6 +267,10 @@
     margin-top: 1em;
   }
 
+  .menu_mobile {
+    display: none;
+  }
+
   @media (max-width: 1080px) {
     html {
       font-size: 93.75%;
@@ -278,6 +281,7 @@
     html {
       font-size: 87.5%;
     }
+
   }
   
   @media (max-width: 450px) {
@@ -285,3 +289,47 @@
       margin-left: 2rem;
     }
   }
+
+  @media (max-width:930px) {
+    .menu {
+      display: none;
+    }
+    header> h1 {
+      display: none;
+    }
+
+    .menu_mobile {
+      display: block;
+    }
+
+    .menu_mobile > nav > img{
+      display: flex;
+      margin-right: 350px;
+      margin-top: 10px;
+      margin-right: 710px;
+    }
+    .menu_mobile > nav{
+      background-color: #535353;
+  }
+
+    @media (max-width:450px) {
+      .menu_mobile > nav > img {
+        margin-right: 330px;
+      }
+      .menu_mobile > nav{
+        background-color: #535353;
+    }
+    .menu_mobile > nav > ul {
+      list-style: none;
+    }
+    .menu_mobile > nav > ul > li {
+      list-style: none;
+      margin-top: 1em;
+      font-size: 25px;
+    }
+    .menu_mobile > nav > ul > li > a{
+      text-decoration: none;
+      color: #4dc8ff;
+    }
+  }
+}
