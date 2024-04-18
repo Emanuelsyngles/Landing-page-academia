@@ -274,6 +274,25 @@
     display: none;
   }
 
+  .img-mobile {
+    display: flex;
+  }
+
+  .mobile_ul {
+    display: flex;
+    gap: 1em;
+  }
+
+  .mobile_ul > li {
+    list-style: none;
+  }
+
+  .mobile_ul > li > a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+
   @media (max-width: 1080px) {
     html {
       font-size: 93.75%;
