@@ -343,8 +343,9 @@
 
 @media (max-width: 930px) {
   .mobile {
+    background-color: #3e3e3e;
+    width: 100%;
     display: flex;
-    margin-top: -150px;
-    margin-right: 700px;
+    transition: .5s;
   }
 }
