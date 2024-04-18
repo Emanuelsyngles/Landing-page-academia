@@ -22,7 +22,6 @@
   header {
     top: 0;
     width: 100%;
-    background: #222324;
     display: flex;
     justify-content: center;
   }
@@ -270,21 +269,24 @@
     margin-top: 1em;
   }
 
+  .mobile {
+    margin-top: -150px;
+    margin-left: 20px;
+  }
+
   .menu_mobile {
     display: none;
   }
 
   .img-mobile {
     display: flex;
-  }
-
-  .mobile_ul {
-    display: flex;
-    gap: 1em;
+    justify-content: start;
+    cursor: pointer;
   }
 
   .mobile_ul > li {
     list-style: none;
+    margin-bottom: 1em;
   }
 
   .mobile_ul > li > a {
@@ -336,5 +338,13 @@
     .menu_mobile > nav{
       background-color: #535353;
       
+  }
+}
+
+@media (max-width: 930px) {
+  .mobile {
+    display: flex;
+    margin-top: -150px;
+    margin-right: 700px;
   }
 }
