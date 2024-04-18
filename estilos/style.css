@@ -343,9 +343,13 @@
 
 @media (max-width: 930px) {
   .mobile {
-    background-color: #3e3e3e;
     width: 100%;
     display: flex;
     transition: .5s;
+    margin-top: -150px;
+  }
+  .mobile_ul {
+    display: none;
+    background-color: #3e3e3e;
   }
 }
