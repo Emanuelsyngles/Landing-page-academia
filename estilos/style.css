@@ -353,3 +353,10 @@
     background-color: #3e3e3e;
   }
 }
+
+@media (max-width: 969px) {
+  .cards {
+    width: 300px;
+    height: 300px;
+  }
+}
