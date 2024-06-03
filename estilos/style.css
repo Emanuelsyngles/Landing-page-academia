@@ -11,6 +11,7 @@
   
   body {
     background-image: linear-gradient(to right,#232F3F, #000);
+    background-repeat: no-repeat;
     line-height: 1;
     font-family: "Roboto", sans-serif;
     display: grid;
@@ -351,6 +352,9 @@
   .mobile_ul {
     display: none;
     background-color: #3e3e3e;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
   }
 }
 

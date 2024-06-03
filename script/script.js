@@ -1,11 +1,15 @@
 const menuLinks = document.querySelectorAll('.menu a[href^="#"]');
 let menu = document.querySelector('.menu')
-const mobile = document.querySelector('.mobile_ul')
+const mobile = document.getElementById('mobile_ul')
 
 function getDistanceFromTheTop(element) {
   const id = element.getAttribute("href");
   return document.querySelector(id).offsetTop;
 }
+
+mobile.addEventListener('click', ()=> {
+  mobile.style.display = 'block'
+})
 
 // function nativeScroll(distanceFromTheTop) {
 //   window.scroll({
@@ -49,20 +53,6 @@ function smoothScrollTo(endX, endY, duration) {
     window.scroll(newX, newY);
   }, 1000 / 60);
 }
-
-
-let burger = document.getElementById('burger'),
-	 nav    = document.getElementById('main-nav'),
-	 slowmo = document.getElementById('slowmo');
-
-burger.addEventListener('click', function(e){
-	this.classList.toggle('is-open');
-	nav.classList.toggle('is-open');
-});
-
-slowmo.addEventListener('click', function(e){
-	this.classList.toggle('is-slowmo');
-});
 
 /* Onload demo - dirty timeout */
 let clickEvent = new Event('click');
