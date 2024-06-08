@@ -150,12 +150,12 @@
     display: flex;
     flex-wrap: wrap;
     background-color: #232F3F;
-    height: 310px;
+    height: 350px;
     width: 300px;
     margin-bottom: 1em;
     margin-left: 1em;
     margin-top: 2em;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
   }
 
