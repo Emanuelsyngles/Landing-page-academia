@@ -1,15 +1,10 @@
 const menuLinks = document.querySelectorAll('.menu a[href^="#"]');
-let menu = document.querySelector('.menu')
-const mobile = document.getElementById('mobile_ul')
+const mobile = document.querySelector('.mobile_ul')
 
 function getDistanceFromTheTop(element) {
   const id = element.getAttribute("href");
   return document.querySelector(id).offsetTop;
 }
-
-mobile.addEventListener('click', ()=> {
-  mobile.style.display = 'block'
-})
 
 // function nativeScroll(distanceFromTheTop) {
 //   window.scroll({
@@ -70,3 +65,8 @@ window.addEventListener('load', function(e) {
 	}, 5500);
 });
 
+
+
+mobile.addEventListener('click', ()=> {
+
+})

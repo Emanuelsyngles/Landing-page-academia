@@ -278,7 +278,7 @@
   }
 
   .menu_mobile {
-    display: none;
+    display:none ;
   }
 
   .img-mobile {
@@ -297,9 +297,6 @@
     color: #fff;
   }
 
-  footer {
-    
-  }
 
   @media (max-width: 1080px) {
     html {
