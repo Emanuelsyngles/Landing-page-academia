@@ -1,6 +1,10 @@
 const menuLinks = document.querySelectorAll('.menu a[href^="#"]');
 const mobile = document.querySelector('.mobile_ul')
 
+mobile.addEventListener('click', ()=> {
+    mobile.style.display = 'block'
+  })
+
 function getDistanceFromTheTop(element) {
   const id = element.getAttribute("href");
   return document.querySelector(id).offsetTop;
@@ -67,6 +71,3 @@ window.addEventListener('load', function(e) {
 
 
 
-mobile.addEventListener('click', ()=> {
-
-})
