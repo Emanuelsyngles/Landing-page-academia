@@ -8,18 +8,21 @@
     scroll-behavior: smooth;
     scroll-padding-top: 90px;
   } */
+
+  .sr {
+    background-color: #000; 
+  }
   
   body {
     overflow-x: hidden;
+    width: 100%;
+    margin: 0 auto;
     background-image: linear-gradient(to right,#232F3F, #000);
     background-repeat: no-repeat;
     line-height: 1;
     font-family: "Roboto", sans-serif;
     display: grid;
     place-items: center;
-    max-width: 2000px;
-    margin: 0 auto;
-    background-size: cover;
   }
   
   header {
@@ -361,6 +364,12 @@
   }
   .img-mobile {
     position: relative;
+  }
+
+  .fechar {
+    display: none;
+    cursor: pointer;
+    width: 50px;
   }
 }
 

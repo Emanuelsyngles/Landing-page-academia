@@ -1,8 +1,17 @@
 const abrir = document.getElementById("abrir");
+const fechar = document.getElementById("fechar");
 const mobile = document.getElementById("mobile");
 
 abrir.addEventListener("click", () => {
   mobile.style.display = "block";
+  abrir.style.display = "none";
+  fechar.style.display = "block";
+});
+
+fechar.addEventListener("click", () => {
+  fechar.style.display = "none";
+  abrir.style.display = "block";
+  mobile.style.display = "none";
 });
 
 function getDistanceFromTheTop(element) {
