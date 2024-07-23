@@ -4,10 +4,9 @@
     box-sizing: border-box;
   }
 
-  /* html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 90px;
-  } */
+  html {
+    overflow-x: hidden;
+  } 
 
   .sr {
     background-color: #000; 
